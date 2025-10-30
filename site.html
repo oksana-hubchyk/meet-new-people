@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet New People</title>
+    <style>
+        body {
+            background-color: #f6f7fb;
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background-color: #fff;
+            width: 200px;
+            border-radius: 20px;
+            padding: 40px 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.05);
+            text-align: center;
+        }
+
+        .illustration {
+            width: 100%;
+            margin-top: 10px;
+            margin-bottom: 60px;
+        }
+
+        .title {
+            background-color: #ff5a5f;
+            color: white;
+            padding: 10px 0;
+            border-radius: 3px;
+            font-weight: 600;
+            font-size: 12px;
+            margin-bottom: 20px;
+            margin: 0 30px 20px;
+        }
+
+        .text {
+            font-size: 6px;
+            color: #777;
+            line-height: 1.2;
+            margin-bottom: 30px;
+            margin-top: ;: 20px;
+            max-width: 170px; /* робить текст вужчим */
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+            margin-left: -5px;
+            margin-right: -5px;
+        }
+
+         .btn-next {
+            border: none;
+            font-weight: 600;
+            cursor: pointer;
+            padding: 5px 10px;
+            border-radius: 3px;
+            font-size: 8px;
+            transition: 0.2s;
+        }
+
+        .btn-skip {
+            border: none;
+            font-weight: 600;
+            cursor: pointer;
+            padding: 5px 10px;
+            border-radius: 3px;
+            font-size: 8px;
+            transition: 0.2s;
+            background-color: #f0f0f0;
+            color: #555;
+        }
+
+        .btn-skip:hover {
+            background-color: #d6d6d6;
+        }
+
+        .btn-next {
+            background-color: #ff5a5f;
+            color: white;
+            border-radius: 2px;
+        }
+
+        .btn-next:hover {
+            background-color: #e14c50;
+        }
+
+        .dots {
+            display: flex;
+            justify-content: center;
+
+            gap: 10px;
+            margin-bottom: -32px;
+        }
+
+        .dot {
+            width: 6px;
+            height: 6px;
+            border-radius: 0%;
+            background-color: #ddd;
+        }
+
+        .dot.active {
+            background-color: #ff5a5f;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container"><img src="https://uploads.onecompiler.io/442yvb7h8/442yu7s7s/1000000995.png" alt="Meet New People Illustration" class="illustration">
+
+
+    <div class="title">MEET NEW PEOPLE</div>
+
+    <p class="text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia tellus quis est pharetra fermentum. Curabitur dapibus neque id lacus hendrerit rhoncus. Vivamus quis pretium metus. Praesent varius tortor sit amet quam eleifend hendrerit. Vivamus pharetra ultrices diam vel volutpat. Praesent molestie lobortis sodales. Sed volutpat tempus orci.
+    </p>
+
+    <div class="dots">
+        <div class="dot active"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+    </div>
+    <div class="buttons">
+        <button class="btn-skip">SKIP</button>
+        <button class="btn-next">NEXT</button>
+    </div>
+</div>
+</body>
+</html>
